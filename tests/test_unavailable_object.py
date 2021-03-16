@@ -20,3 +20,11 @@ def test_OptionalObject():
 
     with pytest.raises(UnavailableObjectError):
         foo_bar_baz()
+
+
+def test_OptionalObject_none_child():
+    foo_bar_baz = UnavailableObject("foo_bar_baz", none_child=True)
+
+    assert foo_bar_baz.spam is None
+
+    assert foo_bar_baz["spam"] is None
