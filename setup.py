@@ -22,8 +22,8 @@ setup(
         "tests": [
             # Pytest
             "pytest",
-            "pytest-cov",
-        ],
+            "flake8",
+        ]
     },
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -31,7 +31,7 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-        #"License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

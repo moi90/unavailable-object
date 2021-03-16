@@ -1,6 +1,6 @@
 # Unavailable Object
 
-A placeholder for optional dependencies.
+A placeholder object for optional dependencies.
 
 ## Usage
 
@@ -30,4 +30,3 @@ except ImportError:
 def foo(arg: "optional_module.SomeType") -> None:
     pass
 ```
-
