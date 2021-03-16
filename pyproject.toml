@@ -1,8 +1,6 @@
 [build-system]
-build-backend = 'setuptools.build_meta'
-requires = [
-    'setuptools >= 43.0.0',
-]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools", "wheel"]
 
 [tool.black]
 line-length = 88
